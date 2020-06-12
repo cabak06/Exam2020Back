@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/PetersenAndreas/CA3-Gruppe3.svg?branch=master)](https://travis-ci.com/PetersenAndreas/CA3-Gruppe3)
+[![Build Status](https://travis-ci.com/cabak06/Exam2020Back.svg?branch=master)](https://travis-ci.com/cabak06/Exam2020Back)
 
 # Group 3 - CA3
 *This project is the startcode written by Group 3 for the CA3-assignment*
