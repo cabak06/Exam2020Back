@@ -10,8 +10,8 @@ import javax.persistence.NamedQuery;
 /* This class is intended as a very simple dummy class to turn into another
 relevant entity class in the future */
 
-//@Entity
-//@NamedQuery(name = "RenameMe.deleteAllRows", query = "DELETE from RenameMe")
+@Entity
+@NamedQuery(name = "RenameMe.deleteAllRows", query = "DELETE from RenameMe")
 public class RenameMe implements Serializable {
 
     private static final long serialVersionUID = 1L;
@@ -19,8 +19,7 @@ public class RenameMe implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     
-    public RenameMe() {
-    }
+    public RenameMe() {}
         
     public Long getId() {
         return id;
