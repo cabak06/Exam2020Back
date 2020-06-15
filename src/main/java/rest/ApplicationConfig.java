@@ -12,7 +12,6 @@ public class ApplicationConfig extends Application {
         addRestResourceClasses(resources);
         return resources;
     }
-
     /**
      * Do not modify addRestResourceClasses() method.
      * It is automatically populated with
@@ -25,6 +24,7 @@ public class ApplicationConfig extends Application {
         resources.add(errorhandling.GenericExceptionMapper.class);
         resources.add(org.glassfish.jersey.server.wadl.internal.WadlResource.class);
         resources.add(rest.DemoResource.class);
+        resources.add(rest.MovieInfoResource.class);
         resources.add(rest.RenameMeResource.class);
         resources.add(security.JWTAuthenticationFilter.class);
         resources.add(security.LoginEndpoint.class);
